@@ -16,7 +16,7 @@ namespace LiveSplit.BM
     {
         public override string ComponentName
         {
-            get { return "BM"; }
+            get { return "Blood Money Autosplitter"; }
         }
 
         public BMSettings Settings { get; set; }

@@ -15,7 +15,7 @@ namespace LiveSplit.BM
 
         public string ComponentName
         {
-            get { return "BM"; }
+            get { return "Blood Money Autosplitter"; }
         }
 
         public string Description
@@ -46,7 +46,7 @@ namespace LiveSplit.BM
                 }
 
                 MessageBox.Show(
-                    "LiveSplit.HMA is already loaded in the " +
+                    "LiveSplit.BM is already loaded in the " +
                         (_instance.IsLayoutComponent ? "Layout Editor" : "Splits Editor") + "!",
                     "Error",
                     MessageBoxButtons.OK,
@@ -65,7 +65,7 @@ namespace LiveSplit.BM
 
         public string UpdateURL
         {
-            get { return "https://raw.githubusercontent.com/SuiMachine/LiveSplit.HitmanAbsolution/Master/"; }
+            get { return "https://raw.githubusercontent.com/HarryPearce/LiveSplit.BM/master/"; }
         }
 
         public Version Version
@@ -75,7 +75,7 @@ namespace LiveSplit.BM
 
         public string XMLURL
         {
-            get { return this.UpdateURL + "Components/update.LiveSplit.HMA.xml"; }
+            get { return this.UpdateURL + "Components/update.LiveSplit.BM.xml"; }
         }
     }
 
