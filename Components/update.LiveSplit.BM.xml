@@ -1,0 +1,10 @@
+<updates>
+<update version="1.0.0">
+<files>
+<file path="Components/LiveSplit.BM.dll" status="changed"/>
+</files>
+<changelog>
+<change>First Release</change>
+</changelog>
+</update>
+</updates>
